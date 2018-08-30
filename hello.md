@@ -37,3 +37,13 @@ git push origin master
 
 then you can find the hello.md in the website of github test project
 
+### 6. modify and push to remote
+modify hell0.md
+
+一般步骤：
+git add hello.md
+
+git commit -m hello
+git pull origin master(你自己的分支)
+git push -u origin master
+如果过程中出现‘please enter a commit message…’,首先esc然后输入 ：wq即可
